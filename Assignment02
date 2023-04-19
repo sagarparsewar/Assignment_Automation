@@ -1,0 +1,44 @@
+package opps;
+
+public class Decimaltohexadecimal {
+	public static void main(String[] args) {
+		int decimalNumber = 245;
+		String hexadecimalNumber=Integer.toHexString(decimalNumber);
+		System.out.println(hexadecimalNumber);
+		answer F5
+
+		int decimalNumber = 45;
+		String hexadecimalNumber=Integer.toHexString(decimalNumber);
+		System.out.println(hexadecimalNumber);
+		answer 2d
+
+		int decimalNumber = 67;
+		String hexadecimalNumber=Integer.toHexString(decimalNumber);
+		System.out.println(hexadecimalNumber);
+		answer = 43
+
+		int decimalNumber = 98;
+		String hexadecimalNumber=Integer.toHexString(decimalNumber);
+		System.out.println(hexadecimalNumber);
+		answer is 62
+
+
+		int decimalNumber = 712;
+		String hexadecimalNumber = Integer.toHexString(decimalNumber);
+		System.out.println(hexadecimalNumber);
+		answer is 2c8
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}
