@@ -1,0 +1,23 @@
+package operators;
+
+public class Temparturecalculated {
+	private static Object Temperature ;
+
+	public static void main(String[] args) {
+
+		float Fahrenheit, Celsius;  
+		Celsius= (float) 1.8+32;  
+		Fahrenheit =((Celsius*9)/5)+273;  
+		System.out.println("Temperature in Fahrenheit is: "+Fahrenheit);
+
+
+	}
+
+	public static Object getTemperature() {
+		return Temperature;
+	}
+
+	public static void setTemperature(Object temperature) {
+		Temperature = temperature;
+	}
+}
