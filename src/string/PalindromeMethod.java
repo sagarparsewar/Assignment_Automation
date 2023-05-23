@@ -1,4 +1,7 @@
 package string;
+
+import java.util.Scanner;
+
 ///Write to a code to check palindrome
 //Palindrome: a word, phrase, or sequence that reads the same backwards as forwards
 
@@ -24,8 +27,12 @@ public class PalindromeMethod {
     }
 
     public static void main(String[] args) {
-        String input1 = "121";
-        System.out.println(isPalindrome(input1)); 
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("enter astring:");
+        String input = scanner.nextLine();
+        scanner.close();
+        boolean isPalindrome = isPalindrome(input);
+        System.out.println("Is palindrome?"+isPalindrome);
 
         String input2 = "123";
         System.out.println(isPalindrome(input2));
